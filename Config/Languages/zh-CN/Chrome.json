@@ -329,5 +329,8 @@
   "StartMenuWhatIfRemovedDefaultProfile": "[模拟运行] 将移除默认用户配置文件中的 start2.bin。",
   "StartMenuRemovedDefaultProfile": "已移除默认用户配置文件中的 start2.bin。",
   "StartMenuRemoveFailedDefaultProfile": "移除默认用户配置文件中的 start2.bin 失败。{0}",
-  "StartMenuNoUserLocationsFound": "未找到任何用户的开始菜单位置。"
+  "StartMenuNoUserLocationsFound": "未找到任何用户的开始菜单位置。",
+  "ApplyRebootRequiredWingetDeferred": "卸载 {0}",
+  "WingetAllUsersUninstallDeferred": "WinGet 以管理员身份运行时无法卸载 {0}，因为该应用按用户范围安装。已计划在登录时对所有现有用户配置文件以及之后新建的配置文件执行卸载。",
+  "WingetUserScopeUninstallDeferred": "WinGet 以管理员身份运行时无法卸载 {0}，因为该应用按用户范围安装。请重启电脑，或注销后以 {1} 重新登录以完成删除。"
 }
